@@ -1,0 +1,76 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Perfil del paciente</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-label>
+        <ion-icon name="person"></ion-icon>
+        Nombres:
+      </ion-label>
+      <ion-label style="color: blue;">{{paciente.nombres | titlecase  }}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        <ion-icon name="person"></ion-icon>
+        Apellido <br> Paterno:
+      </ion-label>
+      <ion-label style="color: blue;">{{paciente.paterno | titlecase }}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        <ion-icon name="person"></ion-icon>
+        Apellido <br> Materno:
+      </ion-label>
+      <ion-label style="color: blue;">{{paciente.materno | titlecase }}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        <ion-icon name="transgender"></ion-icon>
+        Sexo:
+      </ion-label>
+      <ion-label style="color: blue;">{{paciente.sexo | titlecase }}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        <ion-icon name="man"></ion-icon>
+        Edad:
+      </ion-label>
+      <ion-label style="color: blue;">{{paciente.edad}}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        <ion-icon name="pulse"></ion-icon>
+        Presion <br> Arterial:
+      </ion-label>
+      <ion-label style="color: blue;">{{paciente.presion_arterial}}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        <ion-icon name="timer"></ion-icon>
+        Frecuencia <br> Respiratoria:
+      </ion-label>
+      <ion-label style="color: blue;">{{paciente.frecuencia_respiratoria}}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        <ion-icon name="pulse"></ion-icon>
+        Pulso:
+      </ion-label>
+      <ion-label style="color: blue;">{{paciente.pulso}}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        <ion-icon name="thermometer"></ion-icon>
+        Temperatura:
+      </ion-label>
+      <ion-label style="color: blue;">{{paciente.temperatura}} °C</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

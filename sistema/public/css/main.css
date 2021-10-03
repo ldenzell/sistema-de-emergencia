@@ -1,0 +1,21 @@
+.page_user .mini_profile .avatar{
+    display:block;
+    margin:0 auto;
+    border-radius:50%;
+    width:150px
+}
+.page_user .mini_profile .info{
+    background-color:#fff
+}
+.page_user .mini_profile .info span{
+    display:block;
+    font-size:1.2em;
+    width:100%
+}
+.page_user .mini_profile .info span.title{
+    font-weight:bold;
+    margin-top:16px
+}
+.page_user .mini_profile .btn{
+    margin-top:16px;width:100%
+}

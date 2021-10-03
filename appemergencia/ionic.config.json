@@ -1,0 +1,7 @@
+{
+  "name": "appemergencia",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
